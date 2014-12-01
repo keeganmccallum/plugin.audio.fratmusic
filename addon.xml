@@ -2,6 +2,7 @@
 <addon id="plugin.audio.fratmusic" name="fratmusic" version="0.0.1" provider-name="keeganmccallum">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="1.1.0"/>		
 		<import addon="script.module.simplejson" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="fratmusic.py">
